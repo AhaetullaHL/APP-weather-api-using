@@ -1,0 +1,72 @@
+/* GLOBAL */
+
+body {
+    background-color: #0f7cdb;
+
+    font-family: "MV Boli", sans-serif;
+
+    min-width: 90vw;
+    min-height: 90vh;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+#app-title {
+    font-weight: bold;
+    font-size: 20vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    color: #b6babb;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #000 0.1em solid;
+
+    width: 50vw;
+    height: 50vh;
+}
+
+/* form */
+.app-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#city {
+    border: #d3fcff;
+    font-weight: bolder;
+}
+
+
+.btn-submit {
+    border: #00eff9 solid 0.1em;
+    border-radius: 1em ;
+
+    font-family: "MV Boli", sans-serif;
+    text-transform: uppercase;
+
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #1414c0;
+    color: #a4f3ff;
+}
